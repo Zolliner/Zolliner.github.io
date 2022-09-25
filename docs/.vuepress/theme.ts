@@ -35,7 +35,7 @@ export default hopeTheme({
   fullscreen: true,
 
   // 默认为 GitHub. 同时也可以是一个完整的 URL
-  repo: "rockbenben/LearnData",
+  repo: "https://github.com/lizhendong128/lizhendong128.github.io",
   // 自定义仓库链接文字。默认从 `repo` 中自动推断为 "GitHub" / "GitLab" / "Gitee" / "Bitbucket" 其中之一，或是 "Source"。
   repoLabel: "GitHub",
   // 是否在导航栏内显示仓库链接，默认为 `true`
@@ -76,15 +76,12 @@ export default hopeTheme({
     intro: "/intro.html",
     roundAvatar: true,
     medias: {
-      GitHub: "https://github.com/rockbenben",
-      Zhihu: "https://www.zhihu.com/people/qingwhat",
-      Weibo: "https://weibo.com/u/1992817087",
-      Wechat: "http://tc.seoipo.com/wechat.svg",
+      GitHub: "https://github.com/lizhendong128/lizhendong128.github.io",
       少数派: [
-        "https://sspai.com/u/zqj05i4v/posts",
+        "https://sspai.com/u/10onv474/posts",
         path.resolve(__dirname, "icons/sspai.svg"),
       ],
-      RSS: "https://newzone.top/rss.xml",
+      //RSS: "https://newzone.top/rss.xml",
     },
   },
 
@@ -96,18 +93,18 @@ export default hopeTheme({
     },
 
     //评论配置
-    comment: {
+    // comment: {
       //部署 Waline：https://waline.js.org/guide/get-started.html
-      provider: "Waline",
-      serverURL: "https://waline.newzone.top",
-      pageview: true,
+      // provider: "Waline",
+      // serverURL: "https://waline.newzone.top",
+      // pageview: true,
       //Giscus 备用配置
       //provider: "Giscus",
       //repo: "rockbenben/LearnData",
       //repoId: "R_kgDOHdfk6Q",
       //category: "Comments",
       //categoryId: "DIC_kwDOHdfk6c4CQYNn",
-    },
+    // },
 
     mdEnhance: {
       enableAll: false,
