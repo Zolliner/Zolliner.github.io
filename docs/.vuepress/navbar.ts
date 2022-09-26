@@ -52,5 +52,5 @@ export default navbar([
       "Coupon",
     ],
   },
-  { text: "工具收藏", icon: "tool", link: "https://nav.newzone.top/" },
+  { text: "我的专栏", icon: "tool", link: "https://huiri.zhubai.love/" },
 ]);

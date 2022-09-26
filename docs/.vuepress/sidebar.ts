@@ -23,6 +23,14 @@ export default sidebar([
     children: "structure",
   },
   {
+    text: "🪷 学佛",
+    icon: "",
+    prefix: "/Buddha/",
+    link: "",
+    collapsable: true,
+    children: "structure",
+  },
+  {
     text: "📓 日记",
     icon: "",
     prefix: "/journal/",
