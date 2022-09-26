@@ -13,7 +13,7 @@ export default defineUserConfig({
   //网站语言，默认为中文
   lang: "zh-CN",
   //网站标题
-  title: "李振东的知识库",
+  title: "Zolliner的知识库",
   //网站描述
   description: "记录生活，分享知识，留住记忆。",
 
